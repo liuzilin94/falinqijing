@@ -1,12 +1,92 @@
-Warning: truncated output (original token count: 2890)
-Total output lines: 92
-
 <!doctype html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="法临其境：数字人…2790 tokens truncated…案法律意见。原型中的人物、情节和对话均为模拟。</p></div><div><span>项目原型 · 2026</span><a href="#knowledge">查看知识依据</a></div></div></footer>
+  <meta name="description" content="法临其境：数字人剧场与模拟消息对话相结合的法治科普互动原型。">
+  <title>法临其境｜数字人法治微剧场</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231a3768'/%3E%3Cpath d='M18 20h28M18 30h28M18 40h18' stroke='%23fff' stroke-width='5' stroke-linecap='round'/%3E%3Ccircle cx='45' cy='44' r='8' fill='%23dfa65b'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳转到主要内容</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="法临其境首页"><span class="brand-mark" aria-hidden="true">法</span><span>法临其境<small>法治互动学习</small></span></a>
+      <button class="menu-button" id="menu-button" type="button" aria-expanded="false" aria-controls="main-nav">菜单</button>
+      <nav id="main-nav" aria-label="主导航">
+        <a data-route="home" href="#home">首页</a>
+        <a data-route="theatre" href="#theatre">数字人剧场</a>
+        <a data-route="lab" href="#lab">对话实验室</a>
+        <a data-route="knowledge" href="#knowledge">法律知识馆</a>
+        <a data-route="assessment" href="#assessment">能力评估</a>
+        <a data-route="growth" href="#growth">我的成长</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page" id="page-home" data-page="home" aria-labelledby="home-title">
+      <div class="home-top content-width">
+        <div class="home-intro">
+          <p class="eyebrow">法治宣传 · 交互原型</p>
+          <h1 id="home-title">一件生活小事，<br><span>两种普法练习。</span></h1>
+          <p class="lead">先在数字人剧场看清冲突与规则，再在模拟聊天中试着说出自己的主张。每一步都会成为复盘和能力反馈的依据。</p>
+          <div class="hero-actions"><a class="button primary" href="#theatre">开始情境体验</a><a class="button ghost" href="#lab">先试消息对话</a></div>
+          <p class="fine-print">本网站为法治科普原型，不提供个案法律意见。所有角色与消息均为教学模拟。</p>
+        </div>
+        <div class="feature-preview" aria-label="本期样板案例">
+          <div class="preview-copy"><span class="badge light">本期可体验</span><h2>楼道里的<br>那台摄像头</h2><p>安全与隐私的分歧，能否通过有依据的沟通找到更妥当的办法？</p><div class="meta-line"><span>约 6 分钟</span><span>社区治理</span><span>双互动模式</span></div></div>
+          <div class="preview-orbit" aria-hidden="true"><span>事实</span><span>沟通</span><span>规则</span></div>
+        </div>
+      </div>
+      <div class="content-width home-sections">
+        <div class="section-title"><p class="eyebrow">学习路径</p><h2>从理解到表达，再回到行动</h2></div>
+        <div class="path-grid">
+          <a class="path-card" href="#theatre"><span class="path-num">01</span><h3>数字人剧场</h3><p>观察事实、作出判断，看看不同选择会让故事怎样发展。</p><span class="card-link">进入剧场</span></a>
+          <a class="path-card" href="#lab"><span class="path-num">02</span><h3>对话实验室</h3><p>在熟悉的聊天界面中，练习询问、表达顾虑和提出协商方案。</p><span class="card-link">开始对话</span></a>
+          <a class="path-card" href="#assessment"><span class="path-num">03</span><h3>能力评估</h3><p>查看行为依据、待练习之处，以及下一轮最适合你的任务。</p><span class="card-link">查看反馈</span></a>
+        </div>
+        <div class="case-row"><div><p class="eyebrow">下一批主题</p><h2>从社区走向更多生活场景</h2><p>租房押金、兼职入职、网络消费等案例将沿用同一套“理解—应用—评估”结构。</p></div><div class="case-mini"><span>内容筹备中</span><strong>消失的 3000 元押金</strong><small>租房合同 · 证据保存 · 协商</small></div></div>
+      </div>
+    </section>
+
+    <section class="page" id="page-theatre" data-page="theatre" aria-labelledby="theatre-title" hidden>
+      <div class="page-heading content-width"><div><p class="eyebrow">01 数字人剧场</p><h1 id="theatre-title">楼道里的那台摄像头</h1><p>跟随数字人引导员观察事实，在关键节点做出你的判断。</p></div><div class="mode-chip">理解规则 · 情境判断</div></div>
+      <div class="theatre-layout content-width">
+        <div class="avatar-stage"><div class="stage-top"><span class="live-ring" aria-hidden="true"></span><span>法治引导员 · 小临</span><span class="demo-label">形象演示</span></div><img src="digital-guide.svg" alt="数字人引导员小临的演示形象"><div class="stage-caption" id="stage-caption">你好，我是小临。我们先一起看清这件事，再决定怎么沟通。</div></div>
+        <div class="scene-panel"><div class="scene-progress"><span id="scene-step-label">观察事实 · 1 / 3</span><div class="progress-track"><span id="scene-progress-fill"></span></div></div><div id="scene-content" aria-live="polite"></div><div class="scene-footer"><span>每个选择都会进入复盘依据</span><button type="button" class="text-button" id="scene-restart">重新开始</button></div></div>
+      </div>
+      <div class="content-width explain-strip"><strong>为什么用数字人？</strong><span>她负责引导观察、解释后果；选择与规则由受控情境流程决定。此原型尚未接入魔珐星云实时数字人 API。</span></div>
+    </section>
+
+    <section class="page" id="page-lab" data-page="lab" aria-labelledby="lab-title" hidden>
+      <div class="page-heading content-width"><div><p class="eyebrow">02 对话实验室</p><h1 id="lab-title">在群聊里，把话说清楚</h1><p>你是住户。面对邻居与物业，试着澄清事实、表达顾虑并提出可讨论的方案。</p></div><div class="mode-chip">运用规则 · 沟通协商</div></div>
+      <div class="lab-layout content-width">
+        <aside class="lab-brief"><span class="badge">练习目标</span><h2>不是“赢得争论”，<br>而是推进协商</h2><ol><li>弄清镜头拍到哪里</li><li>说明自己的担忧</li><li>提出下一步方案</li></ol><div class="brief-note">对话对象是预设的 AI 模拟角色；当前原型以规则脚本回应，未连接生成式模型。请勿输入真实姓名、住址或纠纷材料。</div></aside>
+        <div class="chat-shell"><div class="chat-head"><span class="chat-icon" aria-hidden="true">邻</span><div><strong>楼栋议事群</strong><small>AI 模拟角色 · 教学情境</small></div><button type="button" class="text-button" id="chat-restart">重开</button></div><div class="chat-messages" id="chat-messages" role="log" aria-label="模拟聊天记录" aria-live="polite"></div><div class="suggestions" id="chat-suggestions" aria-label="快捷表达"></div><form id="chat-form" class="chat-form"><label for="chat-input" class="sr-only">输入你的回复</label><input id="chat-input" name="chat-input" maxlength="140" autocomplete="off" placeholder="输入你会怎样回应……"><button class="button primary" type="submit">发送</button></form><div class="chat-bottom"><span id="chat-hint">可以自由输入，也可以选择上方建议表达</span><button type="button" id="chat-finish" class="text-button">结束并复盘</button></div></div>
+      </div>
+    </section>
+
+    <section class="page" id="page-knowledge" data-page="knowledge" aria-labelledby="knowledge-title" hidden>
+      <div class="page-heading content-width"><div><p class="eyebrow">03 法律知识馆</p><h1 id="knowledge-title">把规则放回具体情境</h1><p>先理解哪些事实值得核实，再阅读相应法律依据。以下卡片为原型展示，正式发布前需法学成员审核。</p></div></div>
+      <div class="content-width knowledge-layout"><div class="topic-panel"><h2>本期主题</h2><button class="topic active" type="button">社区与隐私 <span>3</span></button><button class="topic" type="button" disabled>租房与合同 <span>筹备中</span></button><button class="topic" type="button" disabled>兼职与劳动 <span>筹备中</span></button><p>知识馆不是开放式个案咨询。遇到真实纠纷，请结合事实向专业机构咨询。</p></div><div class="knowledge-cards" id="knowledge-cards"></div></div>
+    </section>
+
+    <section class="page" id="page-assessment" data-page="assessment" aria-labelledby="assessment-title" hidden>
+      <div class="page-heading content-width"><div><p class="eyebrow">04 能力评估</p><h1 id="assessment-title">看见你的判断依据</h1><p>不以打字速度或“像不像律师”评分，只根据你在模拟任务中的可观察行为给出反馈。</p></div><div class="mode-chip">行为证据 · 定向推荐</div></div>
+      <div class="content-width assessment-layout"><section class="assessment-main"><div id="assessment-summary"></div><div id="assessment-dimensions"></div></section><aside class="assessment-side"><h2>学习建议</h2><p id="assessment-recommendation">先完成一个互动任务，系统才有足够依据形成反馈。</p><div class="stacked-actions"><a class="button primary" href="#theatre">练习情境判断</a><a class="button outline" href="#lab">练习线上沟通</a></div><p class="assessment-note">结果是学习反馈，不代表法律专业水平，也不是对真实纠纷的判断。</p></aside></div>
+    </section>
+
+    <section class="page" id="page-growth" data-page="growth" aria-labelledby="growth-title" hidden>
+      <div class="page-heading content-width"><div><p class="eyebrow">05 我的成长</p><h1 id="growth-title">每一次练习，都有迹可循</h1><p>你的练习记录只保存在当前浏览器。本原型没有账号，也不会跨设备同步。</p></div></div>
+      <div class="content-width growth-layout"><div class="growth-card"><span>已完成的数字人剧场</span><strong id="growth-theatre">0</strong><small>次</small></div><div class="growth-card"><span>已完成的对话练习</span><strong id="growth-chat">0</strong><small>次</small></div><div class="growth-card"><span>已收藏的知识卡</span><strong id="growth-saved">0</strong><small>张</small></div></div>
+      <div class="content-width growth-next"><div><h2>下一次，试试不同的表达</h2><p id="growth-next-copy">先从数字人剧场进入案例，了解安全与隐私之间的具体分歧。</p><div class="hero-actions"><a class="button primary" href="#theatre">进入数字人剧场</a><a class="button outline" href="#assessment">查看能力反馈</a></div></div><button class="text-button danger" type="button" id="clear-progress">清除本机学习记录</button></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="content-width footer-inner"><div><strong>法临其境</strong><p>用于一般性法治科普，不构成个案法律意见。原型中的人物、情节和对话均为模拟。</p></div><div><span>项目原型 · 2026</span><a href="#knowledge">查看知识依据</a></div></div></footer>
 </body>
 </html>
 
