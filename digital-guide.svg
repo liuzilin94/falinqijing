@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 1040" role="img" aria-labelledby="title desc">
+  <title id="title">法治引导员小临演示形象</title>
+  <desc id="desc">一位身着深蓝西装的数字法治引导员，背景为抽象法律知识网络。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1a4275"/><stop offset=".55" stop-color="#102a50"/><stop offset="1" stop-color="#09172d"/></linearGradient>
+    <linearGradient id="coat" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#315f98"/><stop offset="1" stop-color="#102e58"/></linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#f5c7ae"/><stop offset="1" stop-color="#c98770"/></linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1c2432"/><stop offset="1" stop-color="#4c5363"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="7" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="760" height="1040" fill="url(#bg)"/>
+  <g opacity=".34" fill="none" stroke="#97dcff" stroke-width="1.5">
+    <path d="M-20 186 C110 98 208 254 345 168S611 78 790 170"/><path d="M-30 350 C130 251 224 385 364 307S610 255 790 334"/><path d="M-50 575 C126 466 215 634 383 515S618 520 800 427"/>
+    <circle cx="89" cy="160" r="9"/><circle cx="273" cy="211" r="7"/><circle cx="525" cy="132" r="10"/><circle cx="662" cy="307" r="7"/><circle cx="174" cy="477" r="10"/><circle cx="480" cy="523" r="8"/>
+  </g>
+  <g filter="url(#glow)" opacity=".65"><circle cx="105" cy="283" r="4" fill="#a4e6ff"/><circle cx="641" cy="203" r="4" fill="#a4e6ff"/><circle cx="563" cy="445" r="3" fill="#e6c46f"/></g>
+  <g transform="translate(0 28)">
+    <ellipse cx="382" cy="911" rx="251" ry="79" fill="#07111f" opacity=".55"/>
+    <path d="M154 935 C163 712 241 612 375 608 C518 606 612 708 632 935Z" fill="url(#coat)"/>
+    <path d="M234 757 L294 652 L381 716 L465 650 L531 762 L493 946 L266 946Z" fill="#eaf2fa"/>
+    <path d="M344 670 L381 716 L419 670 L414 898 L381 938 L348 898Z" fill="#b88c35"/>
+    <path d="M191 934 C206 773 263 694 330 677 L284 943Z" fill="#3f75ae" opacity=".62"/>
+    <path d="M571 934 C556 773 499 694 432 677 L478 943Z" fill="#071d3d" opacity=".38"/>
+    <path d="M286 620 C298 550 305 516 305 478 L454 478 C454 520 465 557 480 618 C438 660 333 663 286 620Z" fill="url(#skin)"/>
+    <ellipse cx="381" cy="371" rx="137" ry="174" fill="url(#skin)"/>
+    <path d="M252 393 C234 278 274 177 379 177 C500 177 536 279 509 386 C494 303 479 260 426 237 C386 274 332 283 261 297Z" fill="url(#hair)"/>
+    <path d="M250 355 C232 276 263 190 358 166 C451 141 535 203 520 310 C492 249 446 214 393 209 C345 240 302 264 251 276Z" fill="url(#hair)"/>
+    <path d="M272 311 C282 438 323 509 382 516 C444 508 484 438 493 312 C459 336 427 347 382 347 C337 347 302 336 272 311Z" fill="url(#skin)"/>
+    <path d="M293 364 C314 350 340 348 358 361" fill="none" stroke="#372d32" stroke-width="7" stroke-linecap="round"/>
+    <path d="M406 361 C425 348 451 350 471 364" fill="none" stroke="#372d32" stroke-width="7" stroke-linecap="round"/>
+    <ellipse cx="330" cy="384" rx="9" ry="12" fill="#273345"/><ellipse cx="436" cy="384" rx="9" ry="12" fill="#273345"/>
+    <path d="M365 422 C378 430 391 430 404 422" fill="none" stroke="#b26c69" stroke-width="5" stroke-linecap="round"/>
+    <path d="M340 460 C364 476 400 476 423 460" fill="none" stroke="#b34e5e" stroke-width="6" stroke-linecap="round"/>
+    <path d="M279 370 C258 404 259 441 277 465" fill="none" stroke="#ca8872" stroke-width="7" stroke-linecap="round"/>
+    <path d="M483 370 C504 404 503 441 485 465" fill="none" stroke="#ca8872" stroke-width="7" stroke-linecap="round"/>
+    <path d="M269 297 C294 239 337 206 390 203 C443 205 489 235 506 290" fill="none" stroke="#1f2837" stroke-width="25" stroke-linecap="round"/>
+    <g transform="translate(461 748)">
+      <rect x="0" y="0" width="75" height="96" rx="8" fill="#f1f5f8" stroke="#a98a3e" stroke-width="4"/>
+      <rect x="13" y="15" width="49" height="8" rx="4" fill="#2b5480"/><rect x="13" y="33" width="36" height="6" rx="3" fill="#8ca7c0"/><rect x="13" y="48" width="45" height="6" rx="3" fill="#8ca7c0"/>
+      <circle cx="37.5" cy="74" r="10" fill="#c69a3f"/><path d="M33 74l3 3 6-7" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </g>
+  <rect x="27" y="28" width="222" height="44" rx="22" fill="#0d2547" opacity=".74" stroke="#9edff7" stroke-opacity=".55"/>
+  <circle cx="51" cy="50" r="7" fill="#82d5f4"/><text x="69" y="57" fill="#eef9ff" font-family="Microsoft YaHei, sans-serif" font-size="19" font-weight="700">法治引导员 · 小临</text>
+  <text x="51" y="984" fill="#dfeeff" font-family="Microsoft YaHei, sans-serif" font-size="18" opacity=".86">演示形象 · GitHub Pages 静态版本</text>
+</svg>
